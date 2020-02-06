@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Flip Care</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FlipCare</string>
+    <string name="nav_header_subtitle">www.flipcare.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sign In</string>
+
+    <string-array name="age">
+        <item>Baby</item>
+        <item>Teenager</item>
+        <item>Adult</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="health">
+        <item>Cancer</item>
+        <item>Heart</item>
+        <item>Nutrition</item>
+        <item>Fever</item>
+        <item>Drugs</item>
+        <item>Diabetes</item>
+        <item>Stress</item>
+        <item>Sight</item>
+        <item>Pain</item>
+    </string-array>
+    <string name="title_activity_doctors_home">FlipCare Specialist</string>
+</resources>

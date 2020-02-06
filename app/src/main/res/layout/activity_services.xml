@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset"
+    tools:context=".ServicesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/app_bar_layout"
+            android:id="@+id/services_toolbar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="FlipCare"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/fontt"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Engages Patients."
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extending Reach."
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="Direct your patients to the healthcare resource they need, when they need it. FlipCare intelligently connects your patients with clinical advice and services, enhancing access without compromising empathy."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="OUR SERVICE"
+            android:textColor="@android:color/white"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="FlipCare answers medical and health questions for consumers and doctors instantly. The answers are provided by an intelligent super-computer that learns about medicine everyday and over time about your health record and medical suggestions history. The ideas behind cognitive computing, or artificial intelligence is that our computer learns by doing, getting at its tasks better over time by crunching more medical information that iterative process of ingesting more information is what makes FlipCare powerful in the medical field."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="EMERGENCY SERVICES"
+            android:textColor="@android:color/white"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="Nice"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="SECURITY GUARANTEED"
+            android:textColor="@android:color/white"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="Don't worry, your data is yours and no one else's. We will never sell your data or hand it over to strangers because it's neither our financial model or our state of minds. Let's not forget, we use the most advanced numerical protocols in the world to ensure maximum security and confidentiality."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="PREMIUM HEALTH CARE"
+            android:textColor="@android:color/white"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="FlipCare delivers empathetic support with 88% satisfaction rate through an integrative mental health approach, including: CBT, SFBT, Mindfulness and more. FlipCare deals with different areas which each day, truly impact your health and your general well-being"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="HOW IT WORKS"
+            android:textColor="@android:color/white"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="Built by clinical Psychologists, Flip is a Health Chatbot that coaches peoplee through tough times to build resilience, by same way a therapist would."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="IT'S SOMETHING IMPORTANT YOU WANT TO KNOW?"
+            android:textColor="@android:color/white"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="Start a conversation with Flip by sending any message. Much like a therapist, flip gives a brief introduction, and then works to understand your needs by simply asking, how are you? Flip observes with care in order to deliver coping strategies, and which adapt to the emotions and concerns to express. "/>
+    </LinearLayout>
+
+
+
+</ScrollView>

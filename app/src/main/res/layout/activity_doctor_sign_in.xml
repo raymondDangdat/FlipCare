@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorSignIn">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/app_bar_layout"
+            android:id="@+id/doc_toolbar"/>
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:background="@drawable/rounded_button"
+                android:layout_gravity="center_horizontal"
+                android:text="SIGN IN BELOW" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:padding="15dp"
+                android:textColorHint="@android:color/white"
+                android:hint="Email ID"
+                android:text="flipcare@gmail.com"
+                android:textColor="@android:color/white"
+                android:inputType="textEmailAddress"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white"
+                android:layout_margin="15dp"
+                android:padding="15dp"
+                android:text="smart001"
+                android:textColorHint="@android:color/white"
+                android:hint="Password" />
+            <Button
+                android:id="@+id/buttonSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:text="Sign In"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

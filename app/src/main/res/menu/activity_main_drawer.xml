@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_insert_drive"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_chat_history"
+            android:icon="@drawable/ic_insert_drive"
+            android:title="Chat History" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_insert_drive"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_insert_drive"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_power"
+            android:title="Exit" />
+    </group>
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:scrollbarStyle="insideInset"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/app_bar_layout"
+            android:id="@+id/about_toolbar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="A FEW WORDS ABOUT US"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/fontt"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="In a unique and global approach, FlipCare covers the 10 topics (Nutrition, Cancer, Eye ...) which have an impact on your health. And, because everything you will read is scientifically proven, I can assure you that it truly works. Discover a new method to take care of yourself and of your health.
+FlipCare answers medical and health questions for consumers and doctors instantly. The answers are provided by an intelligent super computer that learns about medicine everyday and over time about your health record and medical questions history."/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

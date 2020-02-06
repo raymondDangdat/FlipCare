@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+        <include
+            layout="@layout/app_bar_layout"
+            android:id="@+id/chat_toolbar"/>
+        <TextView
+            android:id="@+id/txt_welcome_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/fontt"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/chat_toolbar"
+            android:text="Chat With FlipCare"/>
+        <TextView
+            android:id="@+id/txt_brief_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_margin="20dp"
+            android:layout_below="@+id/txt_welcome_text"
+            android:text="Need medical advice or assistance about some pressing health matters? Then talk to FlipCare about it."/>
+        <!--<TextView-->
+            <!--android:id="@+id/txt_about_desease"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_below="@+id/txt_brief_about"-->
+            <!--/>-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_chats"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt_brief_about">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_gravity="bottom|end">-->
+                <!--<EditText-->
+                    <!--android:id="@+id/edit_chat"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textColorHint="@android:color/white"-->
+                    <!--android:hint="Type your problem here!"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="17sp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:inputType="textMultiLine"/>-->
+                <!--<Button-->
+                    <!--android:id="@+id/buttonSend"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:background="@drawable/rounded_button"-->
+                    <!--android:text="Send"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/edit_chat"-->
+
+                    <!--/>-->
+
+        <!--</LinearLayout>-->
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_chat_bubble"
+            app:backgroundTint="@color/colorPrimaryDark" />
+
+</RelativeLayout>
